@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.python-version
+env/
+venv/
+ENV/
+*.env
+*.env.*
+
+# FastAPI specific logs
+*.log
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# EJS
+views/*.ejs~
+
+# Git-specific
+*.orig
+*.rej
+
+# Static and cache
+static/.cache/
+
+# Compiled files
+*.class
+
+# Other
+test-results/
+coverage/
+logs/
+*.sqlite3
